@@ -1,0 +1,26 @@
+
+
+@media all and (max-width:1200px){
+    body section.all-schedules div.each-schedules ul li h5 {
+        font-size: 18px;
+    }
+    body section.all-schedules div.each-schedules p.timing {
+        font-size: 16px;
+    }
+}
+
+@media all and (max-width:860px){
+    body section.all-schedules div.each-schedules {
+        width: 48%;
+    }
+}
+
+@media all and (max-width:480px){
+    body section.all-schedules div.each-schedules {
+        width: 100%;
+    }
+    body section.all-schedules div.each-schedules p.timing {
+        padding: 4px 8px;
+        font-size: 14px;
+    }
+}

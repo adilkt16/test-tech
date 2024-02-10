@@ -1,0 +1,75 @@
+
+@import "responsive" ;
+@import "eachevent" ;
+
+ul {
+    display:inline-flex;
+    align-items: center;
+    // justify-content: space-between;
+    li {
+        a.reg {
+            margin-right: 10px;
+        }
+        p.reg-fee {
+            font-weight: bolder;
+            font-size: 18px;
+        }
+    }
+}
+
+.reg {
+    font-weight: bold;
+    display: inline-block;
+    width: auto;
+    background-color: #0099ff;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 6px;
+}
+
+
+
+section.all-schedules {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    div.each-schedules {
+        padding: 10px;
+        // border-radius: 10px;
+        margin: 0 0 20px 0;
+        width: 32%;
+        background-image: linear-gradient(to right, #ff69b4, #ff1493);
+        ul {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            li {
+                h5 {
+                    font-size: 20px;
+                }
+                p.mode {
+                    font-weight: bold;
+                    // background-color: none;
+                    background-color: #0099ff;
+                    padding: 6px 15px;
+                    // border-radius: 10px;
+                }
+                p.free {}
+                p.paid {}
+            }
+        }
+        p.timing {
+            background-color: #0099ff;
+            padding:6px 10px;
+            // border-radius: 10px;
+            width: max-content;
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 10px;
+            text-align: center;
+            // background-color: #0099ff;
+        }
+    }
+}
+
